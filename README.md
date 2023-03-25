@@ -1,6 +1,6 @@
 # TypeScript Sapphire Bot example
 
-This is a basic setup of a Discord bot using the [sapphire framework][sapphire] written in TypeScript
+This is a basic setup of a Discord bot using the [sapphire framework][sapphire] and [discord player][discord-player] written in TypeScript
 
 ## How to use it?
 
@@ -21,10 +21,3 @@ npm run watch:start
 ### Production
 
 You can also run the bot with `npm dev`, this will first build your code and then run `node ./dist/index.js`. But this is not the recommended way to run a bot in production.
-
-## License
-
-Dedicated to the public domain via the [Unlicense], courtesy of the Sapphire Community and its contributors.
-
-[sapphire]: https://github.com/sapphiredev/framework
-[unlicense]: https://github.com/sapphiredev/examples/blob/main/LICENSE.md

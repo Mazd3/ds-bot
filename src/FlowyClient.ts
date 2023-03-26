@@ -9,3 +9,9 @@ export class FlowyClient extends SapphireClient {
 		this.player = Player.singleton(this, PLAYER_OPTIONS);
 	}
 }
+
+declare module 'discord.js' {
+	interface Client {
+		readonly player: Player;
+	}
+}
